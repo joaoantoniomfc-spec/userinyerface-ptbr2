@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:900" rel="stylesheet">
+  <title>User Inyerface - A worst-practice UI experiment</title>
+  <meta name="description" content="User Inyerface - A worst-practice UI experiment">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png.html">
+  <link rel="icon" type="image/png" href="favicon.ico.html">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i">
+  <link rel="stylesheet" href="app.css">
+  <!-- Google Analytics -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-143349592-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+</head>
+
+<body>
+  <div v-cloak id="app">
+    <div class="start view view--center">
+      <div class="view__content">
+        <div class="view__row">
+          <ui-logo></ui-logo>
+        </div>
+        <div class="view__row">
+          <p class="start__paragraph">
+            Hi and welcome to User Inyerface,
+            <br> a challenging exploration of
+            <br> user interactions and design patterns.
+          </p>
+          <p class="start__paragraph">
+            To play the game, simply fill in the form
+            <br> as fast and accurate as possible.
+          </p>
+        </div>
+        <div class="view__row">
+          <button class="start__button" type="button">NO</button>
+        </div>
+        <div class="view__row">
+          <p>Please <u>click</u> <a class="start__link" href="game.html">HERE</a> to GO to the <span class="start__highlight">next page</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="bagaar-link">
+      <img alt="verhaert.digital" title="https://verhaert.digital/" class="bagaar-link__image" src="images/verhaert-digital-logo.svg">
+    </div>
+  </div>
+  <script src="app-translated-ux.js"></script>
+</body>
+
+</html>
